@@ -18,8 +18,10 @@ help:
  
 run examples:
 
-* `./run` all: executes all commands of the demo in consecutive order
+* `./run all`: executes all commands of the demo in consecutive order
 * `./run help`: executes the command labeled help
+* `./run version,help,...`: executes the commands given in the listed order
+* `./run version-help`: executes the commands in consecutive order from label version to help
 * `./run clean`: resets the demo to a state before any run execution
 
 
