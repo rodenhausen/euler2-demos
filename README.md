@@ -5,6 +5,7 @@ Each subfolder of this repository contains a demo.
 A demo has the following structure:
 * `./run` the script that can replays the commands of the demo
 * `./commands` the commands executed in the demo, organized in yaml format
+* `./input/{any}` the input used in the demo
 * `./{anything else}` any output produced by the demo
 
 commands example:
