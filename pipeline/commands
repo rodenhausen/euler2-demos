@@ -1,0 +1,13 @@
+input_check:
+ euler2 check input/input.txt
+consistency_check:
+ euler2 align input/input.txt --consistency -o output
+input_viusalization:
+ euler2 show input/input.txt iv -o output
+align:
+ euler2 align input/input.txt -o output
+show_possible_worlds:
+ euler2 show -o output pw
+show_aggregate_view:
+ euler2 show -o output sv
+ 

@@ -1,0 +1,5 @@
+align:
+ euler2 align input/input.txt -o output
+show_aggregate_view:
+ euler2 show -o output sv
+ 

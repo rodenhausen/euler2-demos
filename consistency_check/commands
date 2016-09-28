@@ -1,0 +1,3 @@
+consistency_check:
+ euler2 align input/input.txt --consistency -o output
+
